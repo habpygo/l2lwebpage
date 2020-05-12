@@ -1,0 +1,27 @@
+{
+  "name": "DappDevelopment",
+  "authors": [
+    "Harry Boer <hb@dappdevelopment.com>"
+  ],
+  "description": "Website for blockchain and distributed application expertise",
+  "main": "index.html",
+  "keywords": [
+    "Blockchain",
+    "Dapp"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "angular": "~1.4.7",
+    "flag-icon-css": "^2.8.0"
+  }
+}

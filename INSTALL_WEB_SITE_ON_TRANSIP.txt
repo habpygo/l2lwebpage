@@ -1,0 +1,6 @@
+1. Bij Bookmarks zoek naar folder Dapp Website en klik op TransIP
+2. Ga naar Domein & Webhosting
+3. Onder Webhosting & Email klik op webhosting
+4. Rechts onder controle paneel en dan Wehbhosting; scroll iets naar beneden en zie 
+de lange tab Jouw Website Beheren
+5. Open folder www

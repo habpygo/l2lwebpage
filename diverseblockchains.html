@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head
+         content must come *after* these tags -->
+    <title>Diverse Blockchains op een rij</title>
+    <!-- Bootstrap -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="bower_components/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
+    <link href="css/dappstyle.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.vide.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<body>
+    <!-- Adding a navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Adding div to add toggle button, brand and first step to make navbar responsive-->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle Navigation</span> <span
+                            class="icon-bar"></span> <span class="icon-bar"></span> <span
+                            class="icon-bar"></span> <span class="icon-bar"></span>
+                    </button>
+
+            </div>
+
+            <!-- Nested div with list to make menu collapsable on xs screens -->
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html"><span
+                                aria-hidden="true"> <img src="images/logo.png" height=20 alt="logo" /> Home
+                            </span></a></li>
+                    <!-- Adding a dropdown menu below-->
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Blockchain <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <!-- Adding a horizontal line separator -->
+                            <li><a href="blockchain.html">Wat is blockchain?</a></li>
+                            <li><a href="blockchainlinks.html">Belangrijke links</a></li>
+                            <li><a href="diverseblockchains.html">Blockchain verschillen</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li><a href="services.html"><i class="fa fa-rocket"></i>
+                                Onze Services</a></li> -->
+                    <li><a href="aboutus.html"><span
+                                    class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                                    Over ons</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li><a href="indexEng.html"><span
+                                class="flag-icon flag-icon-gb"></span> English</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <header> </header>
+    <!--========================================================
+                            CONTENT
+  =========================================================-->
+    <div class="written_content">
+        <div class="container">
+            <!-- <div class="col-xs-12 col-sm-12"> -->
+                <div class="row row-content center">
+                        <h1>Blockchains vergeleken</h1>
+                        <hr/>
+                    <!-- <div class="col-xs-12 col-sm-6"> -->
+                    <div style="text-align: justify">
+                    <p>Er zijn vele veschillende type Blockchains. Een fout die nog wel eens gemaakt wordt, is dat men denkt dat blockchain technologie ontstaan
+                    is bij de introductie van Bitcoin. Dit is onjuist. Blockchains waren er al veel eerder; wat de Bitcoin blockchain van diens uitvinder(s),
+                    Satoshi Nakamoto<sup>5</sup>, uniek maakte en waarom deze de bron van inspiratie zou worden voor vele andere blockchains, is dat hij twee belangrijke problemen wist op te lossen.
+                    Met de Bitcoin technologie gaf hij antwoord op de twee belangrijke vragen:
+                    <ol>
+                        <li>Kan ik vertrouwen, dat het geld (de Bitcoin) echt is en niet vals?</li>
+                        <li>Kan ik er zeker van zijn dat niemand anders het geld kan claimen? Dit probleem staat bekend als het <em>double-spend</em>  probleem.</li>
+                    </ol> 
+                        Deze problemen loste hij op met behulp van cryptografie en het zogenaamde <em>mining</em> algoritme. Meer hierover kun je in <a href="https://bitcoin.org/bitcoin.pdf">Nakamoto's white paper</a> lezen.
+                    </p>
+                <p>
+                    Na de introductie van Bitcoin zijn er vele andere Blockchains verschenen, die min of meer gebasseerd zijn op Nakamoto's ideeën. Toch zijn er vele 
+                </p>
+    <!-- </p> -->
+                    </div>
+                <!-- </div> -->
+    <!-- <div class="col-xs-12 col-sm-6" style="text-align: left"> -->
+                <div style="text-align: left">
+                    <p>verschillen aan te wijzen tussen deze blockchains. Wij sommen hier de meest in het oog springende verschillen op:</p>
+                    <ul>
+                        <li>Is het gebaseerd op een crypto currency (ook wel <em>Token</em> genoemd)? Voor sommige zakelijke transacties zijn geen crypto currencies nodig, maar
+                            bij vele is dat wel wenselijk. Het hangt dus voornamelijk af van het gebruikte (business)model.</li>
+                        <li>Is het een <em>non-permissioned</em> blockchain of een <em>permissioned</em> blockchain. Permissioned blockchains geven alleen toegang
+                            aan participanten aangewezen door een door de organisatie aangewezen beheerder. Dit type blockchains is voornamelijk geschikt voor organisaties en bedrijven waarbij het niet noodzakelijk
+                            is, dat iedereen op de blockchain aanwezig is. Dit maakt het ook veiliger. Non-permissioned blockchains zijn voor iedereen toegankelijk; voorbeelden zijn de Bitcoin en Ethereum blockchain en de IOTA tangle.</li>
+                        <li>Kunnen smart contracts of distributed applicaties gebruikt worden? </li>
+                        <li>Waarop is het consensus protocol gebaseerd?</li>
+                        <li>Is het consensus protocol snel of traag? Hoe zit het met de duurzaamheids score</li>
+                        <li>Hoe zit het met het typische <it>Blockchain trilemma</it> security, schaalbaarheid en centralisatie</li>
+                    </ul>
+                </div>
+<!-- </div> -->
+        <hr/>
+<!-- <div class="more_padding"> -->
+        <h3 class="extra_padding">Hieronder volgt een tabel met een kort overzicht met de onderlinge verschillen van een paar populaire blockchains die in omloop zijn, of gaan komen.
+            </h3>
+            <div class="table-responsive">
+                <table class="table">
+                    <tr>
+                        <th width="20%"></th>
+                        <th width="18%" class="center">Bitcoin</th>
+                        <th width="12%" class="center">Ethereum</th>
+                        <th width="20%" class="center">Hyperledger Fabric</th>
+                        <th width="15%" class="center">IOTA</th>
+                        <th width="15%" class="center">Algorand</th>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold">Type Organisatie</td>
+                        <td class="center">OS<sup>6</sup> - Consortium</td>
+                        <td class="center">OS - Consortium</td>
+                        <td class="center">OS - Linux Foundation/IBM</td>
+                        <td class="center">OS - Consortium</td>
+                        <td class="center">OS - Consortium/MIT</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold">Crypto currency aanwezig</td>
+                        <td class="center">Ja <img src="images/bitcoin_logo.png" width="30px"></td>
+                        <td class="center">Ja <img src="images/ether_logo.png" width="30px"></td>
+                        <td class="center">Nee</td>
+                        <td class="center">Ja <img src="images/iota_logo2.png" width="30px"></td>
+                        <td class="center">Ja <img src="images/algorand.png" width="25px"></td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold">Transactie fees aanwezig</td>
+                        <td class="center">Ja</td>
+                        <td class="center">Ja</td>
+                        <td class="center">Nee</td>
+                        <td class="center">Nee</td>
+                        <td class="center">Ja</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold">Consensus Algoritme</td>
+                        <td class="center">Proof of Work</td>
+                        <td class="center">Proof of Stake</td>
+                        <td class="center">Framework afhankelijk</td>
+                        <td class="center">Proof of Work</td>
+                        <td class="center">Pure Proof of Stake</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold">Snelheid consensus algoritme</td>
+                        <td class="center">Zeer laag</td>
+                        <td class="center">Laag</td>
+                        <td class="center">Gemiddeld</td>
+                        <td class="center">Hoog</td>
+                        <td class="center">Zeer hoog</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold">Bewezen betrouwbaarheid</td>
+                        <td class="center">Ja</td>
+                        <td class="center">Nee</td>
+                        <td class="center">Nee</td>
+                        <td class="center">Nee</td>
+                        <td class="center">Nee</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold">Security</td>
+                        <td class="center">Laag</td>
+                        <td class="center">Laag</td>
+                        <td class="center">Redelijk</td>
+                        <td class="center">Meningen verdeeld</td>
+                        <td class="center">Hoog</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold">Gevaar voor centralisatie</td>
+                        <td class="center">Zeer hoog</td>
+                        <td class="center">Hoog</td>
+                        <td class="center">Zeer hoog</td>
+                        <td class="center">Uiteindelijk laag</td>
+                        <td class="center">Zeer laag</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold">Schaalbaarheid</td>
+                        <td class="center">Laag</td>
+                        <td class="center">Laag</td>
+                        <td class="center">Laag</td>
+                        <td class="center">Uiteindelijk hoog</td>
+                        <td class="center">Hoog</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold">Duurzaamheid score<sup>7</sup></td>
+                        <td class="center">Zeer laag</td>
+                        <td class="center">Laag</td>
+                        <td class="center">Gemiddeld</td>
+                        <td class="center">Hoog</td>
+                        <td class="center">Zeer hoog</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold">Smart Contracts of Dapps<sup>8</sup></td>
+                        <td class="center">Bijna</td>
+                        <td class="center">Ja</td>
+                        <td class="center">Ja</td>
+                        <td class="center">Bijna</td>
+                        <td class="center">Bijna</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold">Smart Contract Programmeertaal</td>
+                        <td class="center">Scripting taal</td>
+                        <td class="center">Solidity</td>
+                        <td class="center">Golang, JS, Java, Python</td>
+                        <td class="center">JS, Golang, Python</td>
+                        <td class="center">Go, JS, Java</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold">Permissioned</td>
+                        <td class="center">Nee</td>
+                        <td class="center">Nee</td>
+                        <td class="center">Ja</td>
+                        <td class="center">Nee</td>
+                        <td class="center">Nee/Ja<sup>9</sup></td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold">Controleerbaar</td>
+                        <td class="center">Ja</td>
+                        <td class="center">Ja</td>
+                        <td class="center">Ja</td>
+                        <td class="center">Ja</td>
+                        <td class="center">Ja</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold">Inflationair</td>
+                        <td class="center">Nee</td>
+                        <td class="center">Ja</td>
+                        <td class="center">nvt</td>
+                        <td class="center">Nee</td>
+                        <td class="center">Nee</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold">Immutable ledger</td>
+                        <td class="center">Ja</td>
+                        <td class="center">Ja</td>
+                        <td class="center">Ja</td>
+                        <td class="center">Ja</td>
+                        <td class="center">Ja</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold">Modulair</td>
+                        <td class="center">Nee</td>
+                        <td class="center">Nee</td>
+                        <td class="center">Ja</td>
+                        <td class="center">Nee</td>
+                        <td class="center">Nee</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold">Bruikbaar voor de IoT</td>
+                        <td class="center">Nee</td>
+                        <td class="center">Nee</td>
+                        <td class="center">Nee</td>
+                        <td class="center">Zeer goed</td>
+                        <td class="center">Onzeker</td>
+                    </tr>
+            </table>
+            </div>
+<!-- </div> -->
+                <div class="achtergrond">
+        <!-- The blue blockchain banner -->
+                </div>
+        <div style="text-align: left">
+            <p class="p_small">
+            <sup>5</sup> Niemand weet wie Satoshi Nakamoto is (of zijn). De reden waarom Satoshi onbekend wil blijven is waarschijnlijk vanwege de angst
+            gearesteerd te worden, aangezien Bitcoin buiten het reguliere
+            </p> 
+            <p class="p_small less_margin"> geld circuit van overheden en centrale banken verblijft -- iets wat precies de bedoeling van Bitcoin is.
+            </p>
+            <p class="p_small less_margin">
+            <sup>6</sup> Open Source. Een consortium van software ontwikkelaars bepaalt richting van project en de <em>commits</em> (veranderingen in de source code).
+            </p>
+            <p class="p_small less_margin">
+                <sup>7</sup> Relatief aan normaal server gebruik
+            </p>
+            <p class="p_small less_margin">
+            <sup>8</sup>  Bij de relatief nieuwe DLT projecten zijn ontwikkelingen gaande die dit de komende tijd mogekijk maken.
+            </p>
+            <p class="p_small less_margin">
+            <sup>9</sup> Het netwerk bestaat uit een main network, een test network en een private network. Eerste twee zijn non-permissioned. Het private network is permissioned.
+            </p>
+        </div>
+                    
+       
+    </div>
+        <!-- </div> -->
+        </div>
+
+        <footer class="row-footer">
+                <!-- GREY COLLOR PART OF THE PAGE -->
+                <div class="container">
+                        <div class="col-xs-12 col-sm-4" style="text-align: left">
+                            <h4>Links</h4>
+                            <ul class="list-unstyled">
+                                <li class="horizontaal"><a href="index.html">Home</a></li>
+                                <li class="horizontaal"><a href="about.html">About</a></li>
+                                <li class="horizontaal"><a href="blockchain.html">Blockchain</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-4" style="text-align: center">
+                            <h4>Our contact info</h4>
+                            <address>
+                              <i class="fa fa-envelope"></i>: <a href="mailto:info@dappdevelopment.com">info@dappdevelopment.com</a>
+                            </address>
+                        </div>
+                        <div class="col-xs-12 col-sm-4" style="text-align: right">
+                            <div  style="padding-top: 10px; padding-left: 40px">
+                                <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/henriboer"><i class="fa fa-linkedin"></i></a>
+                                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/dappdevelopment"><i class="fa fa-twitter"></i></a>
+                                <a class="btn btn-social-icon" href="mailto:info@dappdevelopment.com"><i class="fa fa-envelope-o"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12">
+                            <p align=center>© Copyright 2016 DappDevelopment.com</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

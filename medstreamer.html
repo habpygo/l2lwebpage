@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head
+         content must come *after* these tags -->
+    <title>Blockchain</title>
+    <!-- Bootstrap -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="bower_components/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
+    <link href="css/l2l.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.vide.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<body>
+    <!-- Adding a navbar -->
+    <!--========================================================
+                            NAVIGATION BAR
+  =========================================================-->
+    <nav class="navbar-nav navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Adding div to add toggle button, brand and first step to make navbar responsive-->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+
+            <!-- Nested div with list to make m enu collapsable on xs screens -->
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="index.html"><span aria-hidden="true">
+                                <img src="images/l2llogo.png" height=10 alt="logo" />
+                                Home
+                            </span></a>
+                    </li>
+                    <!-- Adding a dropdown menu below-->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                            Products
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <!-- Adding a horizontal line separator -->
+                            <li><a href="medstreamer.html">MedStreamer1</a></li>
+                            <li><a href="ProDataSurveillance.html">Pro Data Surveillance</a></li>
+                            <li><a href="FileChecker.html">FileChecker</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li><a href="services.html"><i class="fa fa-rocket"></i>
+                        Onze Services</a></li> -->
+                    <li><a href="aboutus.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                            About us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <header> </header>
+    <!--========================================================
+                            CONTENT 1e kolom
+  =========================================================-->
+    <div class="written_content">
+        <div class="container">
+            <div class="row row-content rechte_margins">
+                <div class="col-xs-12 col-sm-7">
+                    <h1 class="center">MedStreamer1</h1>
+                    <!-- <p class="center">In meest simpele, maar accurate, termen:</p> -->
+                    <h3 class="more_bottom_margin more_right_padding">
+                        "Een blockchain is een gedistribueerd elektronisch grootboek, dat gecodeerde blokken van geverifieerde
+                        en onveranderbare transacties bevat, die aan elkaar geketend zijn doordat de hash van een blok als input
+                        geldt voor de hash van het volgende blok"
+                    </h3>
+                    <p>Laten we dit eens ontcijferen.</p>
+                    <div class="more_right_padding">
+                        <ul>
+                            <li><strong>Een</strong> blockchain: Betekent dit dat er meerdere bockchains zijn?
+                                Ja, dat is juist! Er zijn vele blockchains in omloop. De meest bekende is de Bitcoin blockchain.
+                                Andere voorbeelden van blockchains zijn, de Ethereum blockchain, de Hyperledger Fabric blockchain en de IOTA tangle.
+                            </li>
+                            <li><strong>Grootboek:</strong> Dit is vergelijkbaar aan een elektronisch grootboek dat door accountants
+                                wordt gebruikt om transacties in op te nemen.
+                            </li>
+                            <li><strong>Gedistribueerd</strong> betekent dat het grootboek zich niet op één server,
+                                pc, of mainframe bevindt, maar gedeeld wordt tussen vele computers, nodes genoemd, waarop zich zogenaamde Peers bevinden
+                                die aangesloten zijn op het netwerk (fig. 1).
+                            </li>
+                            <li><strong>Hash:</strong> Elke transactie is gecodeerd doormiddel van zeer ingewikkelde encryptie methoden.
+                                De meest gebruikte algoritmen zijn de <em>Secure Hash Algorithms: </em> SHA256(32byte) en SHA512(64byte).
+                                Deze cryptografische Hash functies zijn zogenaamde 'one-way' functies, hetgeen betekent dat de eenmaal cryptografisch versleutelde input niet meer te herleiden valt (fig. 2).
+                            </li>
+                            <li><strong>Blok:</strong> Alle transacties worden opgeslagen in een blok. Het aantal transacties per blok verschilt
+                                van één tot een paar duizend, afhankelijk van het type blockchain.
+                            </li>
+                            <li><strong>Geverifieerd:</strong> Alle transacties in een blok kunnen geverifieerd worden door alle participanten
+                                in het netwerk. Met andere woorden, er bestaat ten alle tijden <em>consensus</em> bij de participanten over de gedane
+                                en geregistreerde transacties op de blockchain.
+                            </li>
+                            <li><strong>Onveranderbaar(Immutable):</strong> Voordat een transactie op de blockchain wordt geplaatst,
+                                is deze door alle leden van het network geverifieerd. Doordat ieder output van een transactie
+                                blok <sub>(n-1)</sub>, als input geldt voor de volgende transactie hash blok<sub>(n)</sub> &#8211; ze zijn dus
+                                als het ware aan elkaar geketend &#8211; is het onmogelijk om transacties te vervalsen. Immers, als er één transactie
+                                veranderd zou worden (gesteld dat dat zou lukken), moeten alle opeenvolgende transacties en blokken ook veranderd worden.
+                                Zie figuur 3. Dus eenmaal op de blockchain gezet, zijn de transactie immutable.<sup>4</sup> Dit betekent dus dat geen enkele instantie of
+                                persoon bij machte is om de originele transactie te veranderen.
+                            </li>
+                        </ul>
+                        Voor de volledigheid nog dit.
+                        <blockquote>
+                            <sup>4</sup>Als men zegt dat blockchains immutable zijn, dan bedoelen ze niet dat het onmogelijk is om data te veranderen.
+                            Wat zij bedoelen is dat het uiterst moeilijk is om ze te veranderen zonder samenzwering, en als ze het dan toch zouden proberen, het uiterst
+                            makkelijk is zo'n poging te detecteren en te verhinderen.
+                        </blockquote>
+                        <p>
+                            Vrij vertaald naar Antony Lewis, Director of Research bij R3.
+                        </p>
+                        <p>De quote hierboven is theorie. De realiteit is, dat de combinatie van encryptie/immutability en decentralisatie
+                            van het grootboek, transacties op de blockchain onveranderbaar maken.</p>
+                    </div>
+
+                </div>
+
+                <!--========================================================
+                            CONTENT 2e kolom
+  =========================================================-->
+                <!-- Illustraties -->
+                <div class="row row-content rechte_margins">
+                    <div class="col-xm-12 col-sm-5">
+                        <div class="achtergrond more_margin">
+                            <!-- The blue blockchain banner -->
+                        </div>
+                        <figure class="more_margin">
+                            <img src="images/de-centralised.png" width="100%">
+                            <!-- width="50%" of the body -->
+                            <figcaption>Fig.1 - Gecentraliseerde versus Gedistribueerde netwerken. Merk op dat hoe verder je je verwijdert van een gecentraliseerd systeem, hoe moeilijker het wordt voor individuen, organisaties of overheden, om te knoeien met de data.
+                                Ook is het risico van een gecentraliseerd systeem om 'down' te gaan reëel; het risico dat 30.000 computers allemaal op hetzelfde moment down gaat, is zeer klein.
+                            </figcaption>
+                        </figure>
+                        <div style="border: 1px solid black; padding: 5px">
+                            <h4>Voorbeeld van encryptie</h4>
+                            <p>Hello World.</p>
+                            <p style="font-size: 12.5px">f4bb1975bf1f81f76ce824f7536c1e101a8060a632a52289d530a6f600d52c92</p>
+                            <p>Hello World! </p>
+                            <p style="font-size: 12.5px">7f83b1657ff1fc53b92dc18148a1d65dfc2d4b1fa3d677284addd200126d9069</p>
+                        </div>
+                        <!-- <figure class="more_margin">
+                        <img src="images/encryption.png" width="100%">
+                        <!-- width="50%" of the body -->
+                        <div>
+                            Fig.2 - SHA256 Encrypted tekst van de woorden <em>Hello World.</em> en <em>Hello World!</em>. Merk het verschil op tussen de twee hashes;
+                            deze zijn volkomen verschillend, ondanks het feit dat er slechts een punt(.) in een uitroepteken(!)
+                            verandert. Het is deze eigenschap, die encryptie methoden zo krachtig maken. Probeer het zelf maar eens uit op <a href="http://www.xorbin.com/tools/sha256-hash-calculator">deze site</a>.
+                        </div>
+
+                        <figure class="more_margin">
+                            <img src="images/hash.png" width="100%">
+                            <!-- width="50%" of the body -->
+                            <figcaption>Fig.3 - Als een 'attacker' probeert de data in een blok te veranderen, moeten de transactie hashes van alle opeenvolgende
+                                blokken ook veranderd worden.</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <!-- </div> -->
+
+                <div class="col-xm-12 col-sm-12">
+                    <h3>Samenvattend:</h3>
+                    <blockquote>Bitcoin or other digital currency isn't saved in a file somewhere; it's represented by transactions recorded in a blockchain—kind of like a global spreadsheet or ledger, which leverages the resources of a large P2P network to verify and
+                        approve each Bitcoin transaction. Each blockchain, like the Bitcoin blockchain, is distributed: it runs on computers provided by volunteers around the world. There is no central database to hack. The blockchain is public: anyone can
+                        view it at any time because it resides on the network… and the blockchain is encrypted… it uses public and private keys (rather like a two-key system to access a safety deposit box) to maintain virtual security.
+                    </blockquote>
+                    Don &amp; AlexTapscott, 2016
+
+                    <div class="achtergrond more_margin">
+                        <!-- The blue blockchain banner -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="row-footer">
+        <!-- GREY COLLOR PART OF THE PAGE -->
+        <div class="container">
+            <div class="col-xs-12 col-sm-4" style="text-align: left">
+                <h4>Links</h4>
+                <ul class="list-unstyled">
+                    <li class="horizontaal"><a href="index.html">Home</a></li>
+                    <li class="horizontaal"><a href="about.html">About</a></li>
+                    <li class="horizontaal"><a href="blockchain.html">Blockchain</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-4" style="text-align: center">
+                <h4>Our contact info</h4>
+                <address>
+                    <i class="fa fa-envelope"></i>: <a href="mailto:info@dappdevelopment.com">info@dappdevelopment.com</a>
+                </address>
+            </div>
+            <div class="col-xs-12 col-sm-4" style="text-align: right">
+                <div style="padding-top: 10px; padding-left: 40px">
+                    <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/henriboer"><i class="fa fa-linkedin"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/dappdevelopment"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon" href="mailto:info@dappdevelopment.com"><i class="fa fa-envelope-o"></i></a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12">
+                <p align=center>© Copyright 2016 DappDevelopment.com</p>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
