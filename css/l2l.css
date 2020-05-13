@@ -48,6 +48,67 @@
 }
 
 
+/*=========================================================
+					Navigation Bar stuff
+===========================================================*/
+
+.navbar-inverse {
+    background: #1574A4;
+    /* #10223a*/
+}
+
+.navbar-nav {
+    color: #ffffff;
+}
+
+/* For the active setting */
+.navbar-inverse .navbar-nav>.active>a {
+    background: #1574A4;
+    
+    color: #ffffff;
+}
+
+/* text color when hovering over */
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background: #01caba;   /* background: #1a237e; */
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>.active>a:focus {
+    background: #1574A4; 
+    color: #000000;
+}
+
+.navbar-inverse .navbar-nav>.open>a {
+    background: #1574A4;
+    color: #dddddd;
+}
+
+.navbar-inverse .navbar-nav>.open>a:hover {
+    background: #1574A4;
+    color: #000000;
+}
+
+.navbar-inverse .navbar-nav>.open>a:focus {
+    background: #1574A4;
+    color: #000000;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #000000;
+}
+
+/*background of dropdown menues */
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    background-color: #303f9f;
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: #303f9f;
+    color: #fff;
+}
+
 
 /* Quotes */
 
@@ -221,65 +282,6 @@ th {
 
 tr:nth-child(even) {
     background-color: #dddddd;
-}
-
-/*=========================================================
-					Navigation Bar stuff
-===========================================================*/
-
-.navbar-inverse {
-    background: #1574A4;
-    /* #10223a*/
-    color: #ffffff;
-}
-
-.navbar-nav {
-    color: #ffffff;
-}
-
-.navbar-inverse .navbar-nav>.active>a {
-    background: #1574A4;
-    
-    color: #ffffff;
-}
-
-.navbar-inverse .navbar-nav>.active>a:hover {
-    background: #01caba;   /* background: #1a237e; */
-    color: #ffffff;
-}
-
-.navbar-inverse .navbar-nav>.active>a:focus {
-    background: #1574A4; /*1a237e */
-    color: #ffffff;
-}
-
-.navbar-inverse .navbar-nav>.open>a {
-    background: #1574A4;
-    color: #ffffff;
-}
-
-.navbar-inverse .navbar-nav>.open>a:hover {
-    background: #1574A4;
-    color: #ffffff;
-}
-
-.navbar-inverse .navbar-nav>.open>a:focus {
-    background: #1574A4;
-    color: #ffffff;
-}
-
-.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
-    background-color: #303f9f;
-    color: #eeeeee;
-}
-
-.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
-    color: #000000;
-}
-
-.navbar-inverse .navbar-nav .open .dropdown-menu {
-    background-color: #303f9f;
-    color: #fff;
 }
 
 address {
