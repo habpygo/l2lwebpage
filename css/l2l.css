@@ -238,33 +238,33 @@ tr:nth-child(even) {
 }
 
 .navbar-inverse .navbar-nav>.active>a {
-    background: #1A7AC7;
+    background: #1574A4;
     
     color: #ffffff;
 }
 
 .navbar-inverse .navbar-nav>.active>a:hover {
-    background: #087D77;   /* background: #1a237e; */
+    background: #01caba;   /* background: #1a237e; */
     color: #ffffff;
 }
 
 .navbar-inverse .navbar-nav>.active>a:focus {
-    background: #1a237e;
+    background: #1574A4; /*1a237e */
     color: #ffffff;
 }
 
 .navbar-inverse .navbar-nav>.open>a {
-    background: #1a237e;
+    background: #1574A4;
     color: #ffffff;
 }
 
 .navbar-inverse .navbar-nav>.open>a:hover {
-    background: #1a237e;
+    background: #1574A4;
     color: #ffffff;
 }
 
 .navbar-inverse .navbar-nav>.open>a:focus {
-    background: #1a237e;
+    background: #1574A4;
     color: #ffffff;
 }
 
