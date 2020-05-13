@@ -22,15 +22,21 @@
 }
 
 .surgery {
-    background-image: url("../images/surgery2.jpeg");
+    background-image: url("../images/surgery3.jpg");
     background-repeat: repeat;
     background-position: center;
     width: auto;
     height: auto;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
+.tekstfotos{
+    opacity: 0.7;
+}
 
+.okgreen{
+    background-color: #01caba; /*01caba */
+}
 .darkblue {
     background-color:#07203F ;
     color: #fff
@@ -40,7 +46,6 @@
     color: #ffffff;
     font-weight: 900;
 }
-
 
 
 
