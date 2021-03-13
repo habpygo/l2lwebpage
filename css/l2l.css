@@ -35,15 +35,25 @@
 }
 
 .okgreen{
-    background-color: #01caba; /*01caba */
+    background-color: #89BAC8; /*01caba */
 }
 .darkblue {
-    background-color:#07203F ;
+    background-color:#003F6E ;
+    color: #fff
+}
+
+.greenblue {
+    background-color: #89BAC8;
     color: #fff
 }
 
 .whitefy {
     color: #ffffff;
+    font-weight: 900;
+}
+
+.bluefy {
+    color: #003F6E;
     font-weight: 900;
 }
 
@@ -53,7 +63,7 @@
 ===========================================================*/
 
 .navbar-inverse {
-    background: #1574A4;
+    background: #003F6E; /* #89BAC8 */
     /* #10223a*/
 }
 
@@ -390,7 +400,7 @@ body {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: #003F6E; /* #818181 */
     display: block;
     transition: 0.3s;
 }
